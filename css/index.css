@@ -51,9 +51,8 @@ table {
 
 /* Code starts below */
 
-
 .container{
-    padding: 3%;
+    padding: 0;
     background-image: url(https://i.postimg.cc/L52QyHc9/services-jumbotron.png);
     background-size: cover;
     margin: 0;
@@ -63,7 +62,23 @@ table {
 .nav-bar{
     border: 1px solid red;
     background-color: grey;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    opacity: 96%;
 }
+
+.nav-item{
+    margin: 20%;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+}
+
 
 .hamburger-menu{
     width: 35px;
